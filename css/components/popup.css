@@ -1,0 +1,87 @@
+.m-popup {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.m-popup-content {
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 450px;
+    border-radius: 4px;
+    border: 1px #E9EBEE solid;
+}
+
+.m-popup-head {
+    display: flex;
+}
+.m-popup-head-content {
+    margin: 24px;
+    flex: auto;
+    align-items: center;
+    height: auto;
+}
+
+.m-popup-body {
+    display: flex;
+    margin: 0 24px 24px 24px;
+}
+
+.m-popup-body .m-popup-icon {
+    color: #FF6900;
+    font-size: 26px;
+}
+
+.m-popup-body .content{
+    margin-left: 10px;
+}
+
+.m-popup-select {
+    height: 60px;
+    background-color: #E9EBEE;
+}
+
+.m-popup-select .m-popup-btn {
+    float: right;
+    display: flex;
+    height: 60px;
+}
+
+.m-popup-btn .m-popup-cancel {
+    margin: 10px 0px 10px 0px;
+    background-color: #E9EBEE;
+}
+.m-popup-btn .m-popup-cancel:hover {
+    margin: 10px 0px 10px 0px;
+    background-color: #E5E5E5;
+}
+.m-popup-btn .m-popup-confirm {
+    margin: 10px 24px 10px 16px;
+}
+
+.m-popup-head .m-popup-close {
+
+    font-size: 16px;
+}
+.m-popup-head .m-popup-close i {
+    /* float: right; */
+    display: block;
+    /* margin: 8px; */
+    width: 30px;
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+
+    margin: auto;
+}
+
+.m-popup-head .m-popup-close i:hover {
+    background-color: #E5E5E5;
+}

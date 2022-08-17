@@ -1,0 +1,150 @@
+.m-dialog {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.m-dialog .m-dialog-content {
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    min-width: 400px;
+}
+.m-dialog .m-dialog-content input {
+    width: 100%;
+}
+
+.m-dialog .m-dialog-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 0 4px 0 4px;
+    color: #646778;
+}
+
+.m-dialog .m-dialog-close:hover {
+    background-color: #e5e5e5;
+}
+
+.m-dialog .m-dialog-header {
+    padding: 24px 64px 0px 24px;
+    border-radius: 4px;
+    border-radius: 4px 4px 0 0;
+
+    
+}
+
+.m-dialog .m-dialog-body {
+    padding: 24px;
+}
+
+.m-dialog-footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 4px 0 4px 0;
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.m-dialog-footer button {
+    margin-left: 16px;
+}
+
+/* ----------------- */
+.m-dialog-body {
+    display: flex;
+
+}
+
+#dlgEmployeeDetail .m-dialog-body {
+    height: calc(100vh - 49px - 60px - 24px*2);
+    overflow: auto;
+}
+
+.m-dialog-avatar {
+    width: 160px;
+}
+
+.m-dialog-avatar img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px #bbb solid;
+}
+
+.m-dialog-avatar .m-avatar-require {
+    text-align: center;
+}
+
+.m-dialog-form {
+    margin-left: 24px;
+    min-width: 500px;
+}
+
+.m-dialog-form .m-dialog-wrap {
+    width: 100%;
+}
+
+.m-dialog-form .m-form-header {
+    width: 100%;
+}
+
+.m-dialog-form .m-form-body {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 10px;
+}
+
+.m-dialog-form .m-input-field {
+    margin: 3px 12px 3px 0;
+    box-sizing: border-box;
+}
+
+.m-dialog-form hr {
+    width: 15%;
+    text-align: left;
+    margin-left:0;
+    font-size: 0px;
+    border-top: 3px solid #01B075;
+    margin-top: 4px;
+}
+
+.m-dialog .m-dialog-body .m-dialog-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #E5E5E5 ;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+.m-dialog .m-dialog-body .m-dialog-text {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-dialog .m-save-icon {
+    font-size: 13px;
+    margin-right: 10px;
+}

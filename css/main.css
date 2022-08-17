@@ -1,0 +1,134 @@
+@import url(./components/button.css);
+@import url(./components/input.css);
+@import url(./components/toast.css);
+@import url(./components/table.css);
+@import url(./components/icon.css); 
+@import url(./components/popup.css); 
+@import url(./components/check-box.css); 
+@import url(./components/menu-left.css); 
+@import url(./components/dialog.css); 
+@import url(./page/employee.css); 
+@import url(./layout/content.css); 
+@import url(./layout/header.css); 
+@import url(./layout/navbar.css); 
+@import url(./components/combobox.css); 
+@import url(../lib/combobox/css/combobox.css); 
+
+@import url(../assets/font/fontawesome-5.15.1/css/all.min.css);
+@import url(../assets/font/fontawesome-5.15.1/js/all.min.js);
+
+body {
+    font-family: GoogleSands;
+    font-size: 13px;
+    color: #454545;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+.heading {
+    font-family: GoogleSands Bold;
+    color: #000;
+    font-size: 24px;
+}
+
+.title {
+    font-family: GoogleSands Bold;
+    color: #000;
+    font-size: 20px;
+}
+
+.title2 {
+    font-family: GoogleSands Bold;
+    color: #000;
+    font-size: 15px;
+}
+
+.m-label-field {
+    font-family: GoogleSands Medium;
+    color: #000;
+    font-size: 13px;
+}
+
+.m-label {
+    font-family: GoogleSands;
+    font-size: 13px;
+    color: #454545;
+}
+
+.content-detail {
+    font-family: GoogleSands Medium;
+    font-size: 13px;
+    color: #000;
+}
+
+.content {
+    font-family: GoogleSands;
+    font-size: 13px;
+    color: #000;
+}
+
+.sub-text {
+    font-family: GoogleSands;
+    color: #BBBBBB;
+    font-size: 11px;
+}
+
+.m-row {
+    position: relative;
+    width: 100%;
+    margin-top: 4px;
+}
+
+@font-face {
+    font-family: GoogleSands;
+    src: url("../assets/font/GoogleSans-Regular.otf");
+}
+
+@font-face {
+    font-family: GoogleSands Bold;
+    src: url("../assets/font/GoogleSans-Bold.otf");
+}
+
+@font-face {
+    font-family: GoogleSands Italic;
+    src: url("../assets/font/GoogleSans-Italic.otf");
+}
+
+@font-face {
+    font-family: GoogleSands Medium;
+    src: url("../assets/font/GoogleSans-Medium.otf");
+}
+
+.require {
+    color: red;
+}
+
+.m-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* z-index: 10; */
+    display: none;
+}
+
+.m-loading .m-loading-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #01B075;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    z-index: 999;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

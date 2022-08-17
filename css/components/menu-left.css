@@ -1,0 +1,57 @@
+.m-menuleft {
+    background-color: #fff;
+    width: 200px;
+    cursor: pointer;
+}
+
+.m-menuleft .m-menuleft-item {
+    height: 44px;
+    font-family: GoogleSands Medium;
+    font-size: 13px;
+    color: #454545;
+}
+
+.m-menuleft .m-menuleft-item .active{
+    background-color: #019160;  
+    color: #fff;  
+}
+
+.m-menuleft .m-menuleft-item:hover{
+    background-color: #e5e5e5;  
+    color: #000;  
+    font-family: GoogleSands;
+}
+
+.m-menuleft .m-menuleft-content {
+    /* text-align: center; */
+    vertical-align: middle;
+    line-height: 44px;
+    
+    justify-content: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: center;
+    padding-left: 40px;
+    padding-right: 16px;
+}
+
+.m-menuleft .m-menuleft-content.active {
+    /* text-align: center; */
+    vertical-align: middle;
+    line-height: 44px;
+    justify-content: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-x: 16px;
+    background-position-y: center;
+    padding-left: 40px;
+    padding-right: 16px;
+
+}
+
+
+
+.m-menuleft-ministate {
+    
+}

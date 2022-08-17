@@ -1,0 +1,29 @@
+body {
+    font-family: GoogleSands;
+    font-size: 13px;
+    color: #000;
+    margin: 0;
+    
+}
+
+.m-content{
+    display: flex;
+    flex-direction: column; 
+    box-sizing: border-box;
+    /* flex-wrap: wrap; */
+}
+
+
+.m-content .m-page-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100% - 40px*2 - 12px*2);
+    margin-top: 12px;
+}
+
+.m-content .m-page-table {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}

@@ -1,0 +1,49 @@
+.m-content {
+    position: absolute;
+    top: 48px;
+    left: 225px;
+    width: calc(100% - 225px);
+    height: calc(100vh - 48px);
+    padding: 24px;
+    box-sizing: border-box;
+    
+} 
+
+.m-page-header,.m-page-toolbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.m-page-header .m-page-button {
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.m-page-toolbar {
+    margin-top: 14px;
+}
+
+.m-page-toolbar .m-toolbar-right{
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.m-page-toolbar .m-toolbar-left{
+    display: flex;
+}
+
+.m-page-toolbar .m-toolbar-left .m-toolbar-search {
+    margin-right: 12px;
+}
+
+
+.m-page-grid .m-nav-right .m-combobox {
+    /* width: auto; */
+    border: none;
+}
+
+[notValid],[emailNotValid] {
+    border: 1px #F65454 solid;
+}
+

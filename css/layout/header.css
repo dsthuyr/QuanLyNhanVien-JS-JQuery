@@ -1,0 +1,82 @@
+.m-header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px #bbb solid;
+    box-sizing: border-box;
+}
+
+.m-header .m-header-left {
+    width: 225px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    box-sizing: border-box;
+    border-right: 1px #bbb solid;
+}
+
+.m-header .m-sitebar {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url(../../assets/img/toggle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+}
+
+.m-header .m-logo {
+    height: 24px;
+    width: 100%;
+    /* background-image: url(../../assets/img/logo.png); */
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: contain;
+}
+
+
+.m-header .m-header-right {
+    display: flex;
+    height: 48px;
+    width: calc(100% - 225px);
+}
+
+.m-header .m-header-branch {
+    height: 48px;
+    line-height: 48px;
+}
+
+.m-header .m-header-branch .m-combobox {
+    margin-left: 24px;
+    width: auto;
+    border: none;
+}
+
+.m-header .m-header-user {
+    display: flex;
+    height: 48px;
+    /* line-height: 48px; */
+    margin-left: auto;
+    align-items: center;
+}
+
+.m-header .m-header-user .m-header-avatar,
+.m-header-content,
+.m-header-option {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 12px 16px;
+}
+
+.m-header .m-header-option {
+    width: 20px;
+    height: 20px;
+    background-image: url(../../assets/icon/option.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}

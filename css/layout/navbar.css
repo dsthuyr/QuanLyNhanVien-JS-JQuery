@@ -1,0 +1,33 @@
+.m-navbar {
+    position: relative;
+    width: 225px;
+    height: calc(100vh - 48px);
+    border: 1px #bbb solid;
+    box-sizing: border-box;
+} 
+
+.m-navbar .m-navbar-item {
+    display: flex;
+    height: 44px;
+    width: 100%;
+    align-items: center;
+    padding-left: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.m-navbar .m-navbar-item.m-navbar-item-selected {
+    background-color: #019160 !important;
+    color: #fff;
+}
+
+.m-navbar .m-navbar-item:hover {
+    background-color: #e5e5e5;
+}
+
+.m-navbar .m-navbar-item .m-navbar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: contain;
+}

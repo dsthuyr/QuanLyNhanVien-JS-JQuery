@@ -1,0 +1,47 @@
+.icon-search {
+    background-image: url(../../assets/icon/search.png);
+}
+
+.icon-add {
+    background-image: url(../../assets/icon/add.png);
+}
+
+.icon-option {
+    background-image: url(../../assets/icon/option.png);
+}
+
+.icon-document-online {
+    background-image: url(../../assets/icon/document-online.png);
+}
+
+.icon-dashboard {
+    background-image: url(../../assets/icon/dashboard.png);
+}
+
+.icon-employee {
+    background-image: url(../../assets/icon/dic-employee.png);
+}
+
+.icon-setting {
+    background-image: url(../../assets/icon/setting.png);
+}
+
+.icon-report {
+    background-image: url(../../assets/icon/report.png);
+}
+
+.icon-refresh {
+    background-image: url(../../assets/icon/refresh.png);
+}
+
+.icon-save {
+    background-image: url(../../assets/font/fontawesome-5.15.1/svgs/solid/save.svg);
+}
+
+.icon-alert {
+    color: #F65454;
+}
+
+.icon-success {
+    color: #01B075;
+}
